@@ -1,0 +1,611 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.yarndialog",
+    "pixelsRounding": false,
+    "projectUuid": "d5505af5-e1b7-4a30-9ddc-0fbe9757b231",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Yarn Dialog",
+    "description": "",
+    "author": "",
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/witch_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "witch_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/witch_1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "witch_1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/ARCADECLASSIC.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "ARCADECLASSIC.ttf",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/talk box.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "talk box.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/textface-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "textface-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/textface-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "textface-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/YarnDialogue.json.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\"}",
+        "name": "YarnDialogue.json",
+        "userAdded": true
+      },
+      {
+        "file": "assets/rpg text.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "rpg text.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/talkbox-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "talkbox-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/textface-1-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "textface-1-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/textface-1-1-0-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "textface-1-1-0-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sci-flavie-rmbg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sci-flavie-rmbg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/1b1e37390378cbf59b0dd9893b6f0d4c43925da0f1bff68e8aa9d7549b094b20-sci-flavie-rmbg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/flavie_head_rmbg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "flavie_head_rmbg.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/06f08008f7d106aa01d0a332c840c4429569ee48e5a19efb1ece27c9423d5b24-flavie_head_rmbg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/couloir_hopital.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "couloir_hopital.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/e454dc410150d91baf8e428b0f2ad1b2c3f3973a102fe2746bba1e1b28ea116d-couloir_hopital.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/sci-flavie_rmbg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "sci-flavie_rmbg.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/434022ccbad7f2cf1b71e406096208be984604b95805f175914935244d3079c8-sci-flavie_rmbg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cellule-sanguine-rose-rmbg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cellule-sanguine-rose-rmbg.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/a499ec42c19c0acc376bd0570e2a5ebdc9e91c6159701698cc66103ee407be3b-cellule-sanguine-rose-rmbg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cellule-tumorale-rose-rmbg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cellule-tumorale-rose-rmbg.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/c30ee1a687dd89f03657451b58a536577a2c2ffbb7d0124aa71c03021b6c1c77-cellule-tumorale-rose-rmbg.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/livre-removebg-preview(1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "livre-removebg-preview(1).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/e4bab280e9e122401a12be5ca551fa38ff890d96a7cbe6f42abad3a27cfe9354-livre-removebg-preview(1).png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/A_T_C_G-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "A_T_C_G-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/ae1881981d77385a3eb631f1be69ca43f3bb53e0e8b6aec6e905d8bce3c15529-A_T_C_G-removebg-preview.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/A_T_C_G_2-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "A_T_C_G_2-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/926e78f771ad811fa8696204639e3624abc16c59dedc6b022d898598782cf0f8-A_T_C_G_2-removebg-preview.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/cellule-tumorale-rose.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cellule-tumorale-rose.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/88cd6448a5c9a0ce082ebcbd571ad6340a1d244cab5133a87ff127b602c435fa-cellule-tumorale-rose.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/echantillon-jaune_simple-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "echantillon-jaune_simple-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/2ba31ac35cf6eae81c0539511c9a9f5a30f5f1857b32911f660a82b163ef487e-echantillon-jaune_simple-removebg-preview.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/jauge_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jauge_0.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/ed8d86bb83cd354e4db7d4e4e882f72471b9d3a45d9331816eaaf5c520ea5557-jauge_0.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/jauge_0-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "jauge_0-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/04e8aed0cb7a04b06208a99d5ed6229f269196f81285fad74d1a57035e579905-jauge_0-removebg-preview.png",
+          "name": "cloud-project-resource"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/bg_culture.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "bg_culture.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://project-resources.gdevelop.io/6b51b023-12cb-4fa2-954b-7574dc61e642/resources/ad70ca513dd0b6deddf52eab18a47dc75ad4d2081573e7a53d4a7d124998c1a4-bg_culture.png",
+          "name": "cloud-project-resource"
+        }
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "main_scene_flavie",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sci-flavie-rmbg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 73,
+                        "y": 14
+                      },
+                      {
+                        "x": 287,
+                        "y": 14
+                      },
+                      {
+                        "x": 287,
+                        "y": 352
+                      },
+                      {
+                        "x": 73,
+                        "y": 352
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "main_scene_jauge_0",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "jauge_0-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 36,
+                        "y": 26
+                      },
+                      {
+                        "x": 238,
+                        "y": 26
+                      },
+                      {
+                        "x": 238,
+                        "y": 50
+                      },
+                      {
+                        "x": 36,
+                        "y": 50
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "main_scene_textbox",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "talkbox",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.07999999821186066,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": false,
+                  "image": "talkbox-1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "main_scene_flavie_head",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "flavie_head_rmbg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 112,
+                        "y": 101
+                      },
+                      {
+                        "x": 262,
+                        "y": 101
+                      },
+                      {
+                        "x": 262,
+                        "y": 244
+                      },
+                      {
+                        "x": 112,
+                        "y": 244
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "main_scene_jauge_0"
+      },
+      {
+        "objectName": "main_scene_flavie_head"
+      },
+      {
+        "objectName": "main_scene_textbox"
+      },
+      {
+        "objectName": "main_scene_flavie"
+      }
+    ]
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "main_scene_textscrollspeed",
+      "type": "string",
+      "value": ""
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene1_intro"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/scene2_culture"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}

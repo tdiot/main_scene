@@ -1,0 +1,92 @@
+[
+	{
+		"title": "introduction",
+		"tags": "",
+		"body": "<<avatar 0>>Salut ! (appuie sur \"z\" pour continuer)\nJe m'appelle Flavie ! C'est moi qui vais te guider tout au long de ce jeu !\nPour commencer, je vais t'expliquer un petit peu comment fonctionne le corps humain.\nNotre corps est constitué de petites briques qu’on appelle des cellules.\n<< illustration_normal_cell >>\nElles forment notre peau, nos muscles, notre cœur, notre cerveau... \nNormalement, les cellules sont contrôlées par le corps. \nMais parfois, il y a une cellule qui devient folle et qui se met à se multiplier sans s’arrêter :\n<< illustration_cancerous_cell >>\non dit qu'elle est cancereuse.\nMais comment une cellule devient cancéreuse ? \nSi on zoome à l’intérieur des cellules, on trouve de l’ADN, qui est comme un livre d’instructions pour la cellule. \n<< illustration_book >>\nCe livre lui indique quel type de cellule elle est, ce qu’elle doit faire, etc.\nL’alphabet français contient 26 lettres; l’alphabet de l’ADN, lui, n’en contient que 4 : A, C, G et T. \n<< illustration_ATCG >>\nCes lettres forment des phrases, appelées des gènes. Un gène peut par exemple dire à la cellule “Je ne dois pas me multiplier”. \nMais un seul changement de lettre peut tout chambouler ! Pour l’ADN, on appelle ça une “mutation”. \nEt une mutation peut modifier les instructions : à la place de “Je ne dois pas me multiplier”, \nla cellule lira “Je dois me multiplier”. \n<<  illustration_multiplication >> \nElle se multipliera alors et deviendra une cellule cancéreuse.\n<<  illustration_remove_multiplication >> \nPour étudier les cellules cancéreuses, on prélève un échantillon de cancer sur un patient, \nafin de pouvoir faire des analyses dessus.\n<< illustration_echantillon >>\nUn nouvel échantillon vient justement d'arriver au laboratoire ! Veux-tu nous aider à l'analyser ? \nGrâce à cela, nous allons pouvoir augmenter notre connaissance sur la maladie et peut-être \ntrouver des nouvelles pistes pour la combattre !\n<< illustration_remove_echantillon >>\nHep ! Avant de partir à l'aventure, j'ai encore un petit détail pour toi !\n<< illustration_jauge >>\nTu vois cette jauge ? C'est l'état de notre connaissance sur l'échantillon.\nComplète-la à 100% pour pouvoir tester l'efficacité d'un médicament !\n<< transition_scene_2 >> \n\n",
+		"position": {
+			"x": -12711,
+			"y": -983
+		},
+		"colorID": 3
+	},
+	{
+		"title": "oui",
+		"tags": "",
+		"body": "Super !\nPour commencer, je vais t'expliquer un petit peu comment fonctionne le corps humain.\nNotre corps est constitué de petites briques qu’on appelle des cellules.\n<< illustration >>",
+		"position": {
+			"x": -12867,
+			"y": -682
+		},
+		"colorID": 0
+	},
+	{
+		"title": "non",
+		"tags": "",
+		"body": "Mince ! Une autre fois alors.",
+		"position": {
+			"x": -12578,
+			"y": -687
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -11386,
+			"y": 43
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node_2",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -11386,
+			"y": 43
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node_3",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -12679,
+			"y": 339
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Body explanation",
+		"tags": "",
+		"body": "Elles forment notre peau, nos muscles, notre cœur, notre cerveau... \nNormalement, les cellules sont contrôlées par le corps. \nMais parfois, il y a une cellule qui devient folle et qui se met à se multiplier sans s’arrêter :",
+		"position": {
+			"x": -12875,
+			"y": -404
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Cancer explanation",
+		"tags": "",
+		"body": "elle est cancéreuse.",
+		"position": {
+			"x": -12633,
+			"y": -405
+		},
+		"colorID": 0
+	},
+	{
+		"title": "Node_4",
+		"tags": "",
+		"body": "Empty Text",
+		"position": {
+			"x": -12362,
+			"y": -525
+		},
+		"colorID": 0
+	}
+]
